@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:background="@color/black"
     tools:context=".MainActivity">
+
     <LinearLayout
         android:id="@+id/top_navigation_bar"
         android:layout_width="match_parent"
@@ -52,8 +53,16 @@
             android:id="@+id/featured_content"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:src="@drawable/ic_featured_image"
-            android:scaleType="centerCrop"/>
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/response_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/category_list"
