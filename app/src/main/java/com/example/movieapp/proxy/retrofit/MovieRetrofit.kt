@@ -16,8 +16,7 @@ object MovieRetrofit {
             val original = chain.request()
             val requestBuilder = original.newBuilder()
                 .header("Authorization", "Bearer $AUTH_TOKEN")
-            val request = requestBuilder.build()
-
+            val request = requestBuilder.build()    
             chain.proceed(request)
         }
     }.build()
