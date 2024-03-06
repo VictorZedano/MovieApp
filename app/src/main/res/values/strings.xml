@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="search_button">Buscar</string>
+    <string name="menu_button">Menu</string>
+</resources>
